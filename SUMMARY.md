@@ -1,5 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [数据库基础](chapter1.md)
+* [1、数据库基础](chapter1.md)
+* [2、检索数据](23001-jian-suo-shu-636e5d.md)
+   * [SELECT语句](select.md)
+
 
