@@ -19,5 +19,18 @@ SELECT * FROM products;
 
 ## 检索不同的行
 ```
-SELECT * FROM products; 
+SELECT DISTINCT vend_id FROM products; 
 ```
+`SELECT DISTINCT vend_id`告诉MySQL只返回不同（唯一）的`vend_id`行,如果使用DISTINCT关键字，它必须直接放在列名的前面。
+
+## 限制结果
+```
+SELECT prod_name FROM products LIMIT 5; 
+```
+LIMIT 5指示MySQL返回不多于5行。
+
+
+```
+SELECT prod_name FROM products LIMIT 5, 5; 
+```
+LIMIT 5, 5指示MySQL返回从行5开始的5行。第一个数为开始位置，第二个数为要检索的行数。。`LIMIT 4 OFFSET 3`意为从行3开始取4行，就像LIMIT 3, 4一样
