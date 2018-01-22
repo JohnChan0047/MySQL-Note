@@ -71,3 +71,4 @@ WHERE子句中的NOT操作符有且只有一个功能，那就是否定它之后
 SELECT prod_name, prod_price FROM products WHERE vend_id NOT IN (1002, 1003) ORDER BY prod_name;
 ```
 这里的NOT否定跟在它之后的条件，因此，MySQL不是匹配1002和1003 的vend_id ， 而是匹配1002 和1003 之外供应商的vend_id。
+
