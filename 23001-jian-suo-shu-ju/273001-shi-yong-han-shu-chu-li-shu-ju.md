@@ -45,3 +45,7 @@ SELECT vend_id, COUNT(*) AS num_prods FROM products WHERE prod_price >= 10 GROUP
 ### 分组和排序
 
 ![](/assets/分组和排序.png)
+
+### SELECT子句及其顺序
+![](/assets/SELECT子句及其顺序.png)
+![](/assets/SELECT子句及其顺序2.png)
