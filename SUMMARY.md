@@ -13,4 +13,7 @@
   * [2.8、子查询](23001-jian-suo-shu-ju/283001-zong-jie.md)
   * [2.9、连结表](23001-jian-suo-shu-ju/293001-lian-jie-biao.md)
   * [2.10、组合查询](23001-jian-suo-shu-ju/2103001-zu-he-cha-xun.md)
+* [3、插入、更新、删除数据](33001-cha-ru-3001-geng-xin-3001-shan-chu-shu-ju.md)
+  * [3.1、插入数据](33001-cha-ru-3001-geng-xin-3001-shan-chu-shu-ju/313001-cha-ru-shu-ju.md)
+  * [3.2、更新/删除数据](33001-cha-ru-3001-geng-xin-3001-shan-chu-shu-ju/323001-geng-xin-shu-ju.md)
 
